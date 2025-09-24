@@ -24,7 +24,7 @@ public class Solution {
             
             tempResult.val=sum%10;
             carry=sum/10;
-            
+
             if(l1!=null)
                 l1=l1.next;
             if(l2!=null)
@@ -35,8 +35,6 @@ public class Solution {
                 tempResult.next = new ListNode();
                 tempResult = tempResult.next;
             }
-
-            
         }
         return result;
     }
